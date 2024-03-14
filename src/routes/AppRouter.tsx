@@ -8,7 +8,7 @@ function AppRouter() {
   return (
     <Routes>
       <Route
-        path="/dashboard"
+        path="/"
         element={
           <Suspense fallback={<div>Loading...</div>}>
             <DashboardPage />
